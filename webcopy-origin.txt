@@ -1,0 +1,160 @@
+Uri: http://34.206.75.167/dwdMYlevGnanzquYgipn?fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExNXA3MXFHZFdweWc5Q0trcwEe4moVjdDZhHLkYv46DzeWY3GLZl4GRrnnBa72OSS0q1moG6iOUD_N83FnITM_aem_Qkz88rVMIbHmxEpUDmorNw
+File Name: C:\Downloaded Web Sites\34.206.75.167\dwdMYlevGnanzquYgipn.html
+Content Type: text/html
+
+Uri: http://34.206.75.167/static/css/font_SJSejongGothic.css
+File Name: C:\Downloaded Web Sites\34.206.75.167\static\css\font_SJSejongGothic.css
+Content Type: text/css
+
+Uri: http://34.206.75.167/static/css/icon.png
+File Name: C:\Downloaded Web Sites\34.206.75.167\static\css\icon.png
+Content Type: image/png
+
+Uri: http://34.206.75.167/static/css/main.css
+File Name: C:\Downloaded Web Sites\34.206.75.167\static\css\main.css
+Content Type: text/css
+
+Uri: http://34.206.75.167/static/css/mobile_icon.ico
+File Name: C:\Downloaded Web Sites\34.206.75.167\static\css\mobile_icon.ico
+Content Type: image/x-icon
+
+Uri: http://www.junglesystem.com/theme/junglesystem_2017/css/default.css?ver=161120
+File Name: C:\Downloaded Web Sites\34.206.75.167\theme\junglesystem_2017\css\default.css
+Content Type: text/css
+
+Uri: http://www.junglesystem.com/theme/junglesystem_2017/img/all/button-2-buyicon.png
+File Name: C:\Downloaded Web Sites\34.206.75.167\theme\junglesystem_2017\img\all\button-2-buyicon.png
+Content Type: image/png
+
+Uri: http://www.junglesystem.com/theme/junglesystem_2017/img/all/content-textlist-1-icon.png
+File Name: C:\Downloaded Web Sites\34.206.75.167\theme\junglesystem_2017\img\all\content-textlist-1-icon.png
+Content Type: image/png
+
+Uri: http://www.junglesystem.com/theme/junglesystem_2017/img/all/footer-sejong-package-bg.png
+File Name: C:\Downloaded Web Sites\34.206.75.167\theme\junglesystem_2017\img\all\footer-sejong-package-bg.png
+Content Type: image/png
+
+Uri: http://www.junglesystem.com/theme/junglesystem_2017/img/all/footer-sejong-package-button1.png
+File Name: C:\Downloaded Web Sites\34.206.75.167\theme\junglesystem_2017\img\all\footer-sejong-package-button1.png
+Content Type: image/png
+
+Uri: http://www.junglesystem.com/theme/junglesystem_2017/img/all/footer-sejong-package-button2.png
+File Name: C:\Downloaded Web Sites\34.206.75.167\theme\junglesystem_2017\img\all\footer-sejong-package-button2.png
+Content Type: image/png
+
+Uri: http://www.junglesystem.com/theme/junglesystem_2017/img/all/footer-sejong-package-content.png
+File Name: C:\Downloaded Web Sites\34.206.75.167\theme\junglesystem_2017\img\all\footer-sejong-package-content.png
+Content Type: image/png
+
+Uri: http://www.junglesystem.com/theme/junglesystem_2017/img/all/help-icon.png
+File Name: C:\Downloaded Web Sites\34.206.75.167\theme\junglesystem_2017\img\all\help-icon.png
+Content Type: image/png
+
+Uri: http://www.junglesystem.com/theme/junglesystem_2017/img/all/title-1-icon.png
+File Name: C:\Downloaded Web Sites\34.206.75.167\theme\junglesystem_2017\img\all\title-1-icon.png
+Content Type: image/png
+
+Uri: http://www.junglesystem.com/theme/junglesystem_2017/img/company/bizarea-1.png
+File Name: C:\Downloaded Web Sites\34.206.75.167\theme\junglesystem_2017\img\company\bizarea-1.png
+Content Type: image/png
+
+Uri: http://www.junglesystem.com/theme/junglesystem_2017/img/company/intro-1-1.png
+File Name: C:\Downloaded Web Sites\34.206.75.167\theme\junglesystem_2017\img\company\intro-1-1.png
+Content Type: image/png
+
+Uri: http://www.junglesystem.com/theme/junglesystem_2017/img/content-container-title-line.png
+File Name: C:\Downloaded Web Sites\34.206.75.167\theme\junglesystem_2017\img\content-container-title-line.png
+Content Type: image/png
+
+Uri: http://www.junglesystem.com/theme/junglesystem_2017/img/js-footer-nav-line.gif
+File Name: C:\Downloaded Web Sites\34.206.75.167\theme\junglesystem_2017\img\js-footer-nav-line.gif
+Content Type: image/gif
+
+Uri: http://www.junglesystem.com/theme/junglesystem_2017/img/js-gnb-snb-bg.png
+File Name: C:\Downloaded Web Sites\34.206.75.167\theme\junglesystem_2017\img\js-gnb-snb-bg.png
+Content Type: image/png
+
+Uri: http://www.junglesystem.com/theme/junglesystem_2017/img/main-solution-bg.png
+File Name: C:\Downloaded Web Sites\34.206.75.167\theme\junglesystem_2017\img\main-solution-bg.png
+Content Type: image/png
+
+Uri: http://www.junglesystem.com/theme/junglesystem_2017/img/main-solution-image.png
+File Name: C:\Downloaded Web Sites\34.206.75.167\theme\junglesystem_2017\img\main-solution-image.png
+Content Type: image/png
+
+Uri: http://www.junglesystem.com/theme/junglesystem_2017/img/main-visual-bg.png
+File Name: C:\Downloaded Web Sites\34.206.75.167\theme\junglesystem_2017\img\main-visual-bg.png
+Content Type: image/png
+
+Uri: http://www.junglesystem.com/theme/junglesystem_2017/img/solution/driger-1.png
+File Name: C:\Downloaded Web Sites\34.206.75.167\theme\junglesystem_2017\img\solution\driger-1.png
+Content Type: image/png
+
+Uri: http://www.junglesystem.com/theme/junglesystem_2017/img/solution/hanime-1.png
+File Name: C:\Downloaded Web Sites\34.206.75.167\theme\junglesystem_2017\img\solution\hanime-1.png
+Content Type: image/png
+
+Uri: http://www.junglesystem.com/theme/junglesystem_2017/img/solution/hanime-2-1.png
+File Name: C:\Downloaded Web Sites\34.206.75.167\theme\junglesystem_2017\img\solution\hanime-2-1.png
+Content Type: image/png
+
+Uri: http://www.junglesystem.com/theme/junglesystem_2017/img/solution/hanime-3.png
+File Name: C:\Downloaded Web Sites\34.206.75.167\theme\junglesystem_2017\img\solution\hanime-3.png
+Content Type: image/png
+
+Uri: http://www.junglesystem.com/theme/junglesystem_2017/img/solution/ime-complete-1.png
+File Name: C:\Downloaded Web Sites\34.206.75.167\theme\junglesystem_2017\img\solution\ime-complete-1.png
+Content Type: image/png
+
+Uri: http://www.junglesystem.com/theme/junglesystem_2017/img/solution/ime-engine.png
+File Name: C:\Downloaded Web Sites\34.206.75.167\theme\junglesystem_2017\img\solution\ime-engine.png
+Content Type: image/png
+
+Uri: http://www.junglesystem.com/theme/junglesystem_2017/img/solution/ime-input-1.png
+File Name: C:\Downloaded Web Sites\34.206.75.167\theme\junglesystem_2017\img\solution\ime-input-1.png
+Content Type: image/png
+
+Uri: http://www.junglesystem.com/theme/junglesystem_2017/img/solution/ime-intro-1.png
+File Name: C:\Downloaded Web Sites\34.206.75.167\theme\junglesystem_2017\img\solution\ime-intro-1.png
+Content Type: image/png
+
+Uri: http://www.junglesystem.com/theme/junglesystem_2017/img/solution/mrmygle-1.png
+File Name: C:\Downloaded Web Sites\34.206.75.167\theme\junglesystem_2017\img\solution\mrmygle-1.png
+Content Type: image/png
+
+Uri: http://www.junglesystem.com/theme/junglesystem_2017/img/solution/mrmygle-2.png
+File Name: C:\Downloaded Web Sites\34.206.75.167\theme\junglesystem_2017\img\solution\mrmygle-2.png
+Content Type: image/png
+
+Uri: http://www.junglesystem.com/theme/junglesystem_2017/img/solution/multicode-feature.png
+File Name: C:\Downloaded Web Sites\34.206.75.167\theme\junglesystem_2017\img\solution\multicode-feature.png
+Content Type: image/png
+
+Uri: http://www.junglesystem.com/theme/junglesystem_2017/img/solution/multicode-intro.png
+File Name: C:\Downloaded Web Sites\34.206.75.167\theme\junglesystem_2017\img\solution\multicode-intro.png
+Content Type: image/png
+
+Uri: http://www.junglesystem.com/theme/junglesystem_2017/img/solution/unishape-1-1.png
+File Name: C:\Downloaded Web Sites\34.206.75.167\theme\junglesystem_2017\img\solution\unishape-1-1.png
+Content Type: image/png
+
+Uri: http://www.junglesystem.com/theme/junglesystem_2017/img/solution/unitype-1.png
+File Name: C:\Downloaded Web Sites\34.206.75.167\theme\junglesystem_2017\img\solution\unitype-1.png
+Content Type: image/png
+
+Uri: http://www.junglesystem.com/theme/junglesystem_2017/img/solution/unitype-2-1.png
+File Name: C:\Downloaded Web Sites\34.206.75.167\theme\junglesystem_2017\img\solution\unitype-2-1.png
+Content Type: image/png
+
+Uri: https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=http://www.stateqr-r29apwdc2s.kro.kr/
+File Name: C:\Downloaded Web Sites\34.206.75.167\v1\create-qr-code\index.htm
+Content Type: image/png
+
+Uri: https://code.jquery.com/jquery-3.4.1.js
+File Name: C:\Downloaded Web Sites\34.206.75.167\jquery-3.4.1.js
+Content Type: application/javascript
+
+Uri: https://code.jquery.com/jquery-3.6.0.slim.js
+File Name: C:\Downloaded Web Sites\34.206.75.167\jquery-3.6.0.slim.js
+Content Type: application/javascript
+

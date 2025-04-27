@@ -1,0 +1,2225 @@
+* {
+  font-family: 'SJ세종고딕L';
+  font-size: 18px;
+  letter-spacing: -0.5px;
+  color: #666666;
+  box-sizing: border-box;
+}
+
+a:link, a:visited, a:active {
+  text-decoration: none;
+  color: #212a31;
+}
+
+/*a:hover { text-decoration:underline; }*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body, td, p, input, button, textarea, select, .c1 {
+  font-family: 'SJ세종고딕L';
+  font-size: 18px;
+  color: #222222;
+}
+
+img {
+  border: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: ' ';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.floatleft {
+  float: left;
+}
+
+.floatright {
+  float: right;
+}
+
+.aligncenter {
+  text-align: center;
+}
+
+.alignleft {
+  text-align: left;
+}
+
+.alignright {
+  text-align: right;
+}
+
+.valigntop {
+  vertical-align: top;
+}
+
+.valignmiddle {
+  vertical-align: middle;
+}
+
+.valignbottom {
+  vertical-align: bottom;
+}
+
+.cursorpointer {
+  cursor: pointer;
+}
+
+.sound_only {
+  display: none;
+}
+
+.cke_sc button.btn_cke_sc {
+  margin: 0 0 5px 0;
+  min-width: 110px;
+  display: inline-block;
+  font-family: '돋움', 'Dotum';
+  font-size: 12px;
+  line-height: 24px;
+  padding: 3px 0;
+  text-align: center;
+  color: #6d6d6d;
+  background-color: #fff;
+  border: 1px solid #c7c7c7;
+  text-decoration: none;
+  cursor: pointer;
+}
+.cke_sc button.btn_cke_sc_close {
+  display: none;
+}
+.cke_sc .cke_sc_def dl {
+  text-align: left;
+  zoom: 1;
+}
+.cke_sc .cke_sc_def dt, .cke_sc .cke_sc_def dd {
+  float: left;
+  margin: 0;
+  padding: 5px 0;
+  font-family: '돋움', 'Dotum';
+  font-size: 12px;
+  line-height: 24px;
+  padding: 3px 0;
+  border-bottom: 1px solid #e9e9e9;
+  background-color: #f6f6f6;
+}
+.cke_sc .cke_sc_def dt {
+  width: 20%;
+  font-weight: bold;
+  text-align: center;
+}
+.cke_sc .cke_sc_def dd {
+  width: 30%;
+}
+
+div, span, p, a, ul, li, h1, h2, h3, h4, h5, h6 {
+  box-sizing: border-box;
+}
+
+html {
+  font-smoothing: antialiased;
+}
+
+.skip-link {
+  display: none;
+}
+
+#wrap,
+#header-wrap,
+#content-wrap,
+#footer-wrap {
+  position: relative;
+  z-index: 100;
+}
+
+#footer-wrap {
+  margin-top: 100px;
+}
+
+#wrap {
+  padding-top: 89px;
+}
+
+#header-wrap {
+  width: 100%;
+  min-width: 700px;
+  height: 89px;
+  margin-top: -89px;
+  border-bottom: 1px solid #d3d3d3;
+  position: fixed;
+  z-index: 110;
+  background-color: #fff;
+}
+#header-wrap #header-title {
+  display: none;
+}
+#header-wrap #header-skip {
+  display: none;
+}
+#header-wrap .header-container-box {
+  position: relative;
+  margin: 0 auto;
+  min-width: 700px;
+  max-width: 1200px;
+}
+#header-wrap .header-container-box .header-logo {
+  position: absolute;
+  left: 25px;
+  top: 0;
+}
+#header-wrap .header-container-box .header-gnb {
+  position: absolute;
+  right: 25px;
+  top: 0;
+}
+
+#content-wrap .content-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+#content-wrap .content-container .content-container-title {
+  margin-top: 95px;
+  margin-bottom: 55px;
+}
+#content-wrap .content-container .content-container-title h3 {
+  text-align: center;
+  font-family: 'SJ세종고딕R';
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: normal;
+  padding-bottom: 29px;
+  margin-bottom: 27px;
+  background: url(../img/content-container-title-line.png) no-repeat bottom center;
+}
+#content-wrap .content-container .content-container-title .content-container-title-text1 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 32px;
+  color: #555f67;
+}
+#content-wrap .content-container .content-container-title .content-container-title-text2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 36px;
+  color: #555f67;
+}
+
+#footer-sejong-package-popup-bg {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9998;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.7;
+}
+
+#footer-sejong-package-popup-content1,
+#footer-sejong-package-popup-content2 {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 9999;
+  background-color: #b4a7a1;
+  padding: 10px;
+}
+#footer-sejong-package-popup-content1 .sejong-package-popup-title,
+#footer-sejong-package-popup-content2 .sejong-package-popup-title {
+  color: #fff;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+#footer-sejong-package-popup-content1 .sejong-package-popup-close,
+#footer-sejong-package-popup-content2 .sejong-package-popup-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+#footer-sejong-package-popup-content1 .sejong-package-popup-content,
+#footer-sejong-package-popup-content2 .sejong-package-popup-content {
+  background-color: #fff;
+}
+
+#footer-sejong-package-popup-content1 {
+  display: none;
+  margin-left: -405px;
+  margin-top: -275px;
+}
+
+#footer-sejong-package-popup-content2 {
+  margin-left: -405px;
+  margin-top: -195px;
+}
+
+#footer-sejong-package {
+  width: 100%;
+  min-width: 1200px;
+  height: 490px;
+  background: url(../img/all/footer-sejong-package-bg.png) repeat-x;
+}
+#footer-sejong-package .sejong-package-content {
+  position: relative;
+  width: 1100px;
+  height: 100%;
+  margin: 0 auto;
+  background: url(../img/all/footer-sejong-package-content.png) no-repeat;
+}
+#footer-sejong-package .sejong-package-content .sejong-package-content-title,
+#footer-sejong-package .sejong-package-content .sejong-package-content-content {
+  display: none;
+}
+#footer-sejong-package .sejong-package-content .sejong-package-button1,
+#footer-sejong-package .sejong-package-content .sejong-package-button2 {
+  position: absolute;
+  display: block;
+  width: 210px;
+  height: 65px;
+  overflow: hidden;
+  text-indent: -9999px;
+}
+#footer-sejong-package .sejong-package-content .sejong-package-button1 {
+  top: 385px;
+  left: 540px;
+  background: url(../img/all/footer-sejong-package-button1.png) no-repeat;
+}
+#footer-sejong-package .sejong-package-content .sejong-package-button2 {
+  top: 385px;
+  left: 770px;
+  background: url(../img/all/footer-sejong-package-button2.png) no-repeat;
+}
+
+#footer-sejong-license {
+  width: 100%;
+  min-width: 1200px;
+}
+#footer-sejong-license .sejoing-license-text {
+  display: none;
+}
+#footer-sejong-license .sejoing-license-image {
+  width: 1200px;
+  margin: 60px auto 0;
+}
+
+#footer-wrap {
+  min-width: 1200px;
+}
+#footer-wrap .footer-help {
+  background-color: #343b40;
+}
+#footer-wrap .footer-help .footer-help-container {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#footer-wrap .footer-help .footer-help-nav {
+  float: left;
+  padding: 35px 0;
+}
+#footer-wrap .footer-help .footer-help-banner {
+  float: right;
+  padding: 45px 0 40px 0;
+}
+#footer-wrap .footer-copyright {
+  height: 120px;
+  border-top: 1px solid #2b333a;
+  background-color: #212a31;
+}
+#footer-wrap .footer-copyright .footer-copyright-container {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+}
+#footer-wrap .footer-copyright .footer-copyright-logo {
+  position: absolute;
+  top: 37px;
+}
+#footer-wrap .footer-copyright .footer-copyright-text {
+  position: absolute;
+  top: 33px;
+  left: 209px;
+  font-size: 11px;
+  font-family: '돋움';
+  color: #d3d3d2;
+  line-height: 18px;
+  letter-spacing: 0;
+}
+
+.js-gnb > li {
+  position: relative;
+  float: left;
+}
+.js-gnb > li > a {
+  display: block;
+  padding: 0 25px;
+  height: 89px;
+  line-height: 88px;
+  font-family: 'SJ세종고딕R';
+  font-size: 21px;
+  color: #333333;
+  text-decoration: none;
+}
+.js-gnb > li > a.focus, .js-gnb > li > a:hover {
+  color: #fc611f;
+}
+.js-gnb > li > .js-gnb-snb {
+  display: none;
+  position: absolute;
+  background: url(../img/js-gnb-snb-bg.png);
+}
+.js-gnb > li > .js-gnb-snb a {
+  width: 160px;
+  padding-left: 20px;
+  display: block;
+  font-family: 'SJ세종고딕L';
+  font-size: 15px;
+  color: #ffffff;
+  line-height: 36px;
+  text-decoration: none;
+}
+.js-gnb > li > .js-gnb-snb a:hover {
+  background-color: #7b7b7b;
+}
+.js-gnb > li > .js-gnb-snb a.focus {
+  background-color: #fc611f;
+}
+
+.js-footer-gnb {
+  overflow: hidden;
+}
+.js-footer-gnb > li {
+  float: left;
+  width: 195px;
+}
+.js-footer-gnb > li > a {
+  display: block;
+  line-height: 61px;
+  background: url(../img/js-footer-nav-line.gif) no-repeat left bottom;
+  font-weight: bold;
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.js-footer-gnb .js-footer-gnb-snb {
+  padding-top: 15px;
+}
+.js-footer-gnb .js-footer-gnb-snb > ul > li > a {
+  font-size: 15px;
+  color: #ffffff;
+  line-height: 28px;
+  text-decoration: none;
+}
+
+.js-tab1 {
+  overflow: hidden;
+}
+.js-tab1 li {
+  height: 55px;
+  line-height: 55px;
+  float: left;
+  text-align: center;
+  border: 1px solid #d3d3d3;
+  border-left: 0;
+  box-sizing: border-box;
+}
+.js-tab1 li:first-child {
+  border-left: 1px solid #d3d3d3;
+}
+.js-tab1 li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-family: 'SJ세종고딕L';
+  font-size: 18px;
+  color: #212a31;
+  text-decoration: none;
+}
+.js-tab1 li:hover {
+  border: none;
+  background-color: #fe9264;
+}
+.js-tab1 li:hover a {
+  color: #fff;
+}
+.js-tab1 li.focus {
+  border: none;
+  background-color: #fc611f;
+}
+.js-tab1 li.focus a {
+  color: #fff;
+}
+.js-tab1.js-tab-1 li {
+  width: 100%;
+}
+.js-tab1.js-tab-2 li {
+  width: 50%;
+}
+.js-tab1.js-tab-3 li {
+  width: 33.33%;
+}
+.js-tab1.js-tab-4 li {
+  width: 25%;
+}
+.js-tab1.js-tab-5 li {
+  width: 20%;
+}
+.js-tab1.js-tab-6 li {
+  width: 16.66%;
+}
+.js-tab1.js-tab-7 li {
+  width: 14.28%;
+}
+.js-tab1.js-tab-8 li {
+  width: 12.5%;
+}
+.js-tab1.js-tab-9 li {
+  width: 11.11%;
+}
+.js-tab1.js-tab-10 li {
+  width: 10%;
+}
+.js-tab1.js-tab-11 li {
+  width: 9.09%;
+}
+.js-tab1.js-tab-12 li {
+  width: 8.33%;
+}
+
+.js-gallery-list1 {
+  overflow: hidden;
+}
+.js-gallery-list1 li {
+  width: 220px;
+  height: 220px;
+  float: left;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  overflow: hidden;
+}
+.js-gallery-list1 li a {
+  display: block;
+  border: 1px solid #d3d3d3;
+}
+.js-gallery-list1 li a img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.js-gallery-list1 li a:hover {
+  border: 1px solid #fc611f;
+}
+.js-gallery-list1 li:nth-child(5n) {
+  margin-right: 0;
+}
+
+.js-gallery-list2 {
+  overflow: hidden;
+}
+.js-gallery-list2 li {
+  float: left;
+  margin: 20px 15px;
+  width: 380px;
+}
+.js-gallery-list2 li a {
+  display: block;
+  text-decoration: none;
+}
+.js-gallery-list2 li a img {
+  display: block;
+  width: 380px;
+  height: 150px;
+  /*border:1px solid #d3d3d3;*/
+}
+.js-gallery-list2 li a span {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+}
+.js-gallery-list2 li:nth-child(3n+1) {
+  margin-left: 0;
+}
+.js-gallery-list2 li:nth-child(3n+3) {
+  margin-right: 0;
+}
+
+.js-paging1 {
+  text-align: center;
+  overflow: hidden;
+}
+.js-paging1 li {
+  display: inline-block;
+}
+.js-paging1 li a {
+  display: block;
+  box-sizing: border-box;
+  min-width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #d7d7d7;
+  font-size: 14px;
+  color: #4c4d4e;
+  text-decoration: none;
+  text-align: center;
+}
+.js-paging1 li.js-paging-first a, .js-paging1 li.js-paging-prev a, .js-paging1 li.js-paging-next a, .js-paging1 li.js-paging-end a {
+  font-family: '굴림';
+  font-size: 12px;
+}
+.js-paging1 li.focus a, .js-paging1 li:hover a {
+  border: 0;
+  background-color: #fc611f;
+  color: #fff;
+}
+
+.js-paging2 {
+  text-align: center;
+  overflow: hidden;
+}
+.js-paging2 .pg_wrap .pg a, .js-paging2 .pg_wrap .pg span, .js-paging2 .pg_wrap .pg strong {
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  min-width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #d7d7d7;
+  font-size: 14px;
+  color: #4c4d4e;
+  text-decoration: none;
+  text-align: center;
+}
+.js-paging2 .pg_wrap .pg a.sound_only, .js-paging2 .pg_wrap .pg span.sound_only, .js-paging2 .pg_wrap .pg strong.sound_only {
+  display: none;
+}
+.js-paging2 .pg_wrap .pg a.pg_start, .js-paging2 .pg_wrap .pg a.pg_end, .js-paging2 .pg_wrap .pg span.pg_start, .js-paging2 .pg_wrap .pg span.pg_end, .js-paging2 .pg_wrap .pg strong.pg_start, .js-paging2 .pg_wrap .pg strong.pg_end {
+  font-family: '굴림';
+  font-size: 12px;
+}
+.js-paging2 .pg_wrap .pg a.pg_current, .js-paging2 .pg_wrap .pg a:hover, .js-paging2 .pg_wrap .pg span.pg_current, .js-paging2 .pg_wrap .pg span:hover, .js-paging2 .pg_wrap .pg strong.pg_current, .js-paging2 .pg_wrap .pg strong:hover {
+  border: 0;
+  background-color: #fc611f;
+  color: #fff;
+}
+
+table.js-table-1 {
+  width: 100%;
+  border-top: 2px solid #fc611f;
+}
+table.js-table-1.js-table-borderStyle1 {
+  border-top: 1px solid #d7d7d7;
+}
+table.js-table-1 th {
+  line-height: 36px;
+  padding: 12px 0;
+  text-align: center;
+  letter-spacing: -1px;
+  font-size: 18px;
+  font-family: 'SJ세종고딕L';
+  font-weight: bold;
+  color: #212a31;
+  background-color: #f6f6f6;
+  border-bottom: 1px solid #d7d7d7;
+}
+table.js-table-1 td {
+  line-height: 36px;
+  padding: 12px 15px;
+  text-align: left;
+  letter-spacing: -0.6px;
+  font-size: 18px;
+  font-family: 'SJ세종고딕L';
+  font-weight: normal;
+  color: #212a31;
+  border-bottom: 1px solid #d7d7d7;
+}
+table.js-table-1 .js-table-paddingLR35 {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+table.js-table-1 .js-table-rline {
+  border-right: 1px solid #d7d7d7;
+}
+table.js-table-1 .js-table-title {
+  font-family: 'SJ세종고딕L';
+  font-weight: bold;
+}
+table.js-table-1 .js-table-center {
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.js-table-2 {
+  width: 100%;
+  border-top: 2px solid #fc611f;
+}
+.js-table-2 th {
+  position: relative;
+  text-align: center;
+  padding: 18px 0;
+  line-height: 21px;
+  font-family: 'SJ세종고딕L';
+  font-weight: bold;
+  font-size: 14px;
+  color: #6c6c6c;
+  border-bottom: 1px solid #d3d3d3;
+  background-color: #f6f6f6;
+}
+.js-table-2 th.js-table-th-2line {
+  padding: 10px 0;
+}
+.js-table-2 td {
+  position: relative;
+  padding: 7px 15px;
+  text-align: left;
+  line-height: 21px;
+  font-family: 'SJ세종고딕L';
+  font-weight: normal;
+  font-size: 14px;
+  color: #6c6c6c;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.js-table-3 {
+  width: 100%;
+  border-top: 1px solid #d7d7d7;
+}
+.js-table-3 th {
+  line-height: 36px;
+  padding: 17px 0;
+  text-align: center;
+  letter-spacing: -1px;
+  font-size: 18px;
+  font-family: 'SJ세종고딕L';
+  font-weight: bold;
+  color: #212a31;
+  background-color: #f6f6f6;
+  border-bottom: 1px solid #d7d7d7;
+}
+.js-table-3 td {
+  line-height: 36px;
+  padding: 17px 28px;
+  text-align: left;
+  letter-spacing: -0.6px;
+  font-size: 18px;
+  font-family: 'SJ세종고딕L';
+  font-weight: normal;
+  color: #212a31;
+  border-bottom: 1px solid #d7d7d7;
+}
+
+.js-form-1 input[type=text],
+.js-form-1 input[type=password],
+.js-form-1 select {
+  padding: 9px;
+  width: 100%;
+  font-family: 'SJ세종고딕L';
+  font-size: 14px;
+  font-weight: normal;
+  border: 1px solid #c9c9c9;
+}
+.js-form-1 input[type=checkbox] {
+  vertical-align: middle;
+  margin-top: -1px;
+}
+.js-form-1 textarea {
+  padding: 9px;
+  width: 100%;
+  font-family: 'SJ세종고딕L';
+  font-size: 14px;
+  font-weight: normal;
+  border: 1px solid #c9c9c9;
+}
+.js-form-1 label {
+  vertical-align: middle;
+  font-weight: normal;
+}
+
+.js-fontweight-icon-1 {
+  display: inline-block;
+  text-align: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 17px;
+  font-family: 'SJ세종고딕L';
+  font-weight: bold;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #36b8a8;
+}
+
+.js-font-sejong {
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+.js-font-sejongwrite .js-font-sejongwrite-1 .js-font-sejongwrite-mainThumb-layout {
+  width: 405px;
+  min-height: 205px;
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  z-index: 101;
+}
+.js-font-sejongwrite .js-font-sejongwrite-1 .js-font-sejongwrite-mainThumb-layout .mainThumb-layout-1,
+.js-font-sejongwrite .js-font-sejongwrite-1 .js-font-sejongwrite-mainThumb-layout .mainThumb-layout-2,
+.js-font-sejongwrite .js-font-sejongwrite-1 .js-font-sejongwrite-mainThumb-layout .mainThumb-layout-3,
+.js-font-sejongwrite .js-font-sejongwrite-1 .js-font-sejongwrite-mainThumb-layout .mainThumb-layout-4,
+.js-font-sejongwrite .js-font-sejongwrite-1 .js-font-sejongwrite-mainThumb-layout .mainThumb-layout-5,
+.js-font-sejongwrite .js-font-sejongwrite-1 .js-font-sejongwrite-mainThumb-layout .mainThumb-layout-6,
+.js-font-sejongwrite .js-font-sejongwrite-1 .js-font-sejongwrite-mainThumb-layout .mainThumb-layout-7,
+.js-font-sejongwrite .js-font-sejongwrite-1 .js-font-sejongwrite-mainThumb-layout .mainThumb-layout-8,
+.js-font-sejongwrite .js-font-sejongwrite-1 .js-font-sejongwrite-mainThumb-layout .mainThumb-layout-9 {
+  border: 1px solid #d3d3d3;
+  position: absolute;
+  padding-top: 12px;
+  font-size: 13px;
+  font-family: 'SJ세종고딕L';
+  font-weight: normal;
+  text-align: center;
+  cursor: pointer;
+}
+.js-font-sejongwrite .js-font-sejongwrite-1 .js-font-sejongwrite-mainThumb-layout .mainThumb-layout-1:hover, .js-font-sejongwrite .js-font-sejongwrite-1 .js-font-sejongwrite-mainThumb-layout .mainThumb-layout-1.focus,
+.js-font-sejongwrite .js-font-sejongwrite-1 .js-font-sejongwrite-mainThumb-layout .mainThumb-layout-2:hover,
+.js-font-sejongwrite .js-font-sejongwrite-1 .js-font-sejongwrite-mainThumb-layout .mainThumb-layout-2.focus,
+.js-font-sejongwrite .js-font-sejongwrite-1 .js-font-sejongwrite-mainThumb-layout .mainThumb-layout-3:hover,
+.js-font-sejongwrite .js-font-sejongwrite-1 .js-font-sejongwrite-mainThumb-layout .mainThumb-layout-3.focus,
+.js-font-sejongwrite .js-font-sejongwrite-1 .js-font-sejongwrite-mainThumb-layout .mainThumb-layout-4:hover,
+.js-font-sejongwrite .js-font-sejongwrite-1 .js-font-sejongwrite-mainThumb-layout .mainThumb-layout-4.focus,
+.js-font-sejongwrite .js-font-sejongwrite-1 .js-font-sejongwrite-mainThumb-layout .mainThumb-layout-5:hover,
+.js-font-sejongwrite .js-font-sejongwrite-1 .js-font-sejongwrite-mainThumb-layout .mainThumb-layout-5.focus,
+.js-font-sejongwrite .js-font-sejongwrite-1 .js-font-sejongwrite-mainThumb-layout .mainThumb-layout-6:hover,
+.js-font-sejongwrite .js-font-sejongwrite-1 .js-font-sejongwrite-mainThumb-layout .mainThumb-layout-6.focus,
+.js-font-sejongwrite .js-font-sejongwrite-1 .js-font-sejongwrite-mainThumb-layout .mainThumb-layout-7:hover,
+.js-font-sejongwrite .js-font-sejongwrite-1 .js-font-sejongwrite-mainThumb-layout .mainThumb-layout-7.focus,
+.js-font-sejongwrite .js-font-sejongwrite-1 .js-font-sejongwrite-mainThumb-layout .mainThumb-layout-8:hover,
+.js-font-sejongwrite .js-font-sejongwrite-1 .js-font-sejongwrite-mainThumb-layout .mainThumb-layout-8.focus,
+.js-font-sejongwrite .js-font-sejongwrite-1 .js-font-sejongwrite-mainThumb-layout .mainThumb-layout-9:hover,
+.js-font-sejongwrite .js-font-sejongwrite-1 .js-font-sejongwrite-mainThumb-layout .mainThumb-layout-9.focus {
+  border: 1px solid #fc611f;
+  color: #fc611f;
+}
+.js-font-sejongwrite .js-font-sejongwrite-1 .js-font-sejongwrite-mainThumb-layout .mainThumb-layout-1 {
+  width: 135px;
+  height: 135px;
+  top: 0;
+  left: 0;
+  padding-top: 45px;
+}
+.js-font-sejongwrite .js-font-sejongwrite-1 .js-font-sejongwrite-mainThumb-layout .mainThumb-layout-2 {
+  width: 125px;
+  height: 135px;
+  bottom: 0;
+  right: 0;
+  padding-top: 45px;
+}
+.js-font-sejongwrite .js-font-sejongwrite-1 .js-font-sejongwrite-mainThumb-layout .mainThumb-layout-3 {
+  width: 195px;
+  height: 65px;
+  top: 0;
+  left: 140px;
+}
+.js-font-sejongwrite .js-font-sejongwrite-1 .js-font-sejongwrite-mainThumb-layout .mainThumb-layout-4 {
+  width: 135px;
+  height: 65px;
+  bottom: 0;
+  left: 140px;
+}
+.js-font-sejongwrite .js-font-sejongwrite-1 .js-font-sejongwrite-mainThumb-layout .mainThumb-layout-5 {
+  width: 65px;
+  height: 65px;
+  top: 0;
+  right: 0;
+}
+.js-font-sejongwrite .js-font-sejongwrite-1 .js-font-sejongwrite-mainThumb-layout .mainThumb-layout-6 {
+  width: 65px;
+  height: 65px;
+  top: 70px;
+  left: 140px;
+}
+.js-font-sejongwrite .js-font-sejongwrite-1 .js-font-sejongwrite-mainThumb-layout .mainThumb-layout-7 {
+  width: 65px;
+  height: 65px;
+  top: 70px;
+  left: 210px;
+}
+.js-font-sejongwrite .js-font-sejongwrite-1 .js-font-sejongwrite-mainThumb-layout .mainThumb-layout-8 {
+  width: 65px;
+  height: 65px;
+  bottom: 0;
+  left: 0;
+}
+.js-font-sejongwrite .js-font-sejongwrite-1 .js-font-sejongwrite-mainThumb-layout .mainThumb-layout-9 {
+  width: 65px;
+  height: 65px;
+  bottom: 0;
+  left: 70px;
+}
+.js-font-sejongwrite .js-font-sejongwrite-1 .js-font-sejongwrite-mainThumb-input {
+  position: relative;
+  z-index: 100;
+  width: 100%;
+  padding-left: 425px;
+  font-family: 'SJ세종고딕L';
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #6c6c6c;
+}
+
+.js-font-sejongview {
+  margin-top: 60px;
+  position: relative;
+  border: 5px soild blue;
+}
+.js-font-sejongview .js-font-sejongview-1 {
+  height: 462px;
+  border-bottom: 2px solid #212a31;
+  position: relative;
+}
+.js-font-sejongview .js-font-sejongview-1 .js-font-sejongview-1-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  border: 1px solid #d9d9d9;
+}
+.js-font-sejongview .js-font-sejongview-1 .js-font-sejongview-1-title {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 770px;
+  height: 95px;
+  border-top: 2px solid #212a31;
+  font-size: 36px;
+  color: #212a31;
+  line-height: 90px;
+  padding-left: 18px;
+}
+.js-font-sejongview .js-font-sejongview-1 .js-font-sejongview-1-table {
+  position: absolute;
+  top: 95px;
+  right: 0;
+  width: 770px;
+}
+.js-font-sejongview .js-font-sejongview-1 .js-font-sejongview-1-button {
+  position: absolute;
+  bottom: 60px;
+  right: 0;
+  width: 770px;
+}
+.js-font-sejongview .js-font-sejongview-2 {
+  position: relative;
+  padding-top: 23px;
+}
+.js-font-sejongview .js-font-sejongview-2 .js-font-sejongview-2-title {
+  height: 55px;
+  line-height: 54px;
+  padding-left: 30px;
+}
+.js-font-sejongview .js-font-sejongview-2 .js-font-sejongview-2-title h5 {
+  font-family: 'SJ세종고딕L';
+  font-weight: bold;
+  font-size: 24px;
+  color: #212a31;
+}
+.js-font-sejongview .js-font-sejongview-2 .js-font-sejongview-2-sizebutton {
+  position: absolute;
+  top: 35px;
+  right: 0;
+}
+.js-font-sejongview .js-font-sejongview-2 .js-font-sejongview-2-sizebutton .js-font-sejongview-2-sizebutton-up,
+.js-font-sejongview .js-font-sejongview-2 .js-font-sejongview-2-sizebutton .js-font-sejongview-2-sizebutton-down {
+  outline: none;
+  background-color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 19px;
+  text-align: center;
+  border: 1px solid #d7d7d7;
+  vertical-align: middle;
+  margin: -7px 5px 0 5px;
+}
+.js-font-sejongview .js-font-sejongview-2 .js-font-sejongview-2-sizebutton .js-font-sejongview-2-sizebutton-text {
+  font-family: 'SJ세종고딕L';
+  font-weight: bold;
+  font-size: 24px;
+  color: #212a31;
+}
+.js-font-sejongview .js-font-sejongview-2 .js-font-sejongview-2-weightbutton {
+  position: absolute;
+  top: 33px;
+  right: 110px;
+}
+.js-font-sejongview .js-font-sejongview-2 .js-font-sejongview-2-weightbutton button {
+  outline: none;
+  display: inline-block;
+  width: 50px;
+  height: 30px;
+  line-height: 29px;
+  background-color: #fff;
+  border: 1px solid #d7d7d7;
+  text-align: center;
+  font-family: 'SJ세종고딕L';
+  font-weight: bold;
+  font-size: 18px;
+  color: #212a31;
+  cursor: pointer;
+}
+.js-font-sejongview .js-font-sejongview-2 .js-font-sejongview-2-weightbutton button.focus, .js-font-sejongview .js-font-sejongview-2 .js-font-sejongview-2-weightbutton button:hover {
+  background-color: #fc611f;
+  border: 1px solid #fc611f;
+  color: #fff;
+}
+.js-font-sejongview .js-font-sejongview-2 .js-font-sejongview-2-textarea-area {
+  height: 230px;
+  background-color: #f5eee5;
+  cursor: text;
+}
+.js-font-sejongview .js-font-sejongview-2 .js-font-sejongview-2-textarea-area .js-font-sejongview-2-textarea {
+  width: 100%;
+  color: #212a31;
+  border: 0;
+  background-color: #f5eee5;
+  text-align: center;
+  letter-spacing: 0;
+  outline: 0;
+  resize: none;
+  word-break: break-all;
+  vertical-align: middle;
+  padding: 10px 0 0 0;
+  overflow: hidden;
+}
+.js-font-sejongview .js-font-sejongview-3 {
+  padding-top: 75px;
+  padding-bottom: 45px;
+}
+.js-font-sejongview .js-font-sejongview-3 .js-font-sejongview-3-title {
+  height: 55px;
+  line-height: 54px;
+  padding-left: 30px;
+}
+.js-font-sejongview .js-font-sejongview-3 .js-font-sejongview-3-title h5 {
+  font-family: 'SJ세종고딕L';
+  font-weight: bold;
+  font-size: 24px;
+  color: #212a31;
+}
+.js-font-sejongview .js-font-sejongview-4 {
+  border-top: 1px solid #d7d7d7;
+  padding-top: 30px;
+}
+
+.js-font-global .js-font-global-1 {
+  text-align: center;
+}
+.js-font-global .js-font-global-1 .js-font-global-1-content {
+  height: 340px;
+  margin-top: 60px;
+  text-align: center;
+  position: relative;
+}
+.js-font-global .js-font-global-1 .js-font-global-1-content img {
+  position: absolute;
+  top: 0;
+  left: 155px;
+}
+.js-font-global .js-font-global-1 .js-font-global-1-content ul {
+  margin-left: 670px;
+  padding-top: 20px;
+}
+.js-font-global .js-font-global-2 {
+  text-align: center;
+}
+.js-font-global .js-font-global-2 .js-font-global-2-content {
+  height: 490px;
+  margin-top: 60px;
+  text-align: center;
+}
+.js-font-global .js-font-global-2 .js-font-global-2-content p {
+  margin-top: 35px;
+  margin-bottom: 60px;
+}
+.js-font-global .js-font-global-3 {
+  text-align: center;
+}
+.js-font-global .js-font-global-3 .js-font-global-3-content {
+  height: 640px;
+  margin-top: 60px;
+  text-align: center;
+}
+.js-font-global .js-font-global-4 {
+  text-align: center;
+}
+.js-font-global .js-font-global-4 .js-font-global-4-content {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.js-font-custom {
+  margin-top: 60px;
+  text-align: center;
+}
+.js-font-custom .js-font-custom-1 {
+  text-align: center;
+  margin-bottom: 130px;
+}
+.js-font-custom .js-font-custom-1 .js-font-custom-1-title {
+  margin-bottom: 50px;
+}
+.js-font-custom .js-font-custom-1 .js-font-custom-1-content {
+  text-align: center;
+}
+.js-font-custom .js-font-custom-1 .js-font-custom-1-content p {
+  margin-bottom: 40px;
+}
+.js-font-custom .js-font-custom-2 {
+  text-align: center;
+}
+.js-font-custom .js-font-custom-2 .js-font-custom-2-title {
+  margin-bottom: 60px;
+}
+.js-font-custom .js-font-custom-2 .js-font-custom-2-content {
+  text-align: center;
+}
+
+.js-font-private {
+  margin-top: 60px;
+  text-align: center;
+}
+.js-font-private .js-font-private-1 {
+  margin-bottom: 135px;
+}
+.js-font-private .js-font-private-1 .js-font-private-1-title {
+  margin-bottom: 60px;
+}
+.js-font-private .js-font-private-2 {
+  margin-bottom: 135px;
+}
+.js-font-private .js-font-private-2 .js-font-private-2-title {
+  margin-bottom: 60px;
+}
+.js-font-private .js-font-private-3 {
+  margin-bottom: 135px;
+}
+.js-font-private .js-font-private-3 .js-font-private-3-title {
+  margin-bottom: 50px;
+}
+.js-font-private .js-font-private-3 .js-font-private-3-content p {
+  margin-bottom: 50px;
+}
+.js-font-private .js-font-private-4 .js-font-private-4-title {
+  margin-bottom: 60px;
+}
+
+.js-solution-ime .js-solution-ime-intro {
+  margin-top: 60px;
+  text-align: center;
+  padding: 370px 0 0 0;
+  background: url(../img/solution/ime-intro-1.png) no-repeat center top;
+}
+.js-solution-ime .js-solution-ime-complete {
+  height: 400px;
+  margin-top: 140px;
+  text-align: center;
+  background: url(../img/solution/ime-complete-1.png) no-repeat;
+  background-position: 80px 105px;
+}
+.js-solution-ime .js-solution-ime-complete ul {
+  padding-left: 575px;
+  padding-top: 75px;
+}
+.js-solution-ime .js-solution-ime-engine {
+  height: 430px;
+  margin-top: 140px;
+  text-align: center;
+  background: url(../img/solution/ime-engine.png) no-repeat;
+  background-position: 165px 105px;
+}
+.js-solution-ime .js-solution-ime-engine ul {
+  padding-left: 575px;
+  padding-top: 120px;
+}
+.js-solution-ime .js-solution-ime-input {
+  height: 410px;
+  margin-top: 140px;
+  text-align: center;
+  background: url(../img/solution/ime-input-1.png) no-repeat;
+  background-position: 75px 45px;
+}
+.js-solution-ime .js-solution-ime-input ul {
+  padding-left: 575px;
+  padding-top: 145px;
+}
+.js-solution-ime .js-solution-ime-reference {
+  margin-top: 140px;
+  text-align: center;
+}
+.js-solution-ime .js-solution-ime-reference ul {
+  margin-top: 60px;
+  overflow: hidden;
+}
+.js-solution-ime .js-solution-ime-reference ul li {
+  margin-bottom: 26px;
+}
+.js-solution-ime .js-solution-ime-reference ul li:nth-child(odd) {
+  float: left;
+}
+.js-solution-ime .js-solution-ime-reference ul li:nth-child(even) {
+  float: right;
+}
+
+.js-solution-hanime .js-solution-hanime-1 {
+  margin-top: 60px;
+  padding-left: 500px;
+  padding-top: 100px;
+  text-align: center;
+  height: 570px;
+  background: url(../img/solution/hanime-1.png) no-repeat;
+  background-position: 158px 0;
+}
+.js-solution-hanime .js-solution-hanime-2 {
+  margin-top: 120px;
+  text-align: center;
+  padding-top: 600px;
+  height: 450px;
+  background: url(../img/solution/hanime-2-1.png) no-repeat;
+  background-position: 80px 0;
+}
+.js-solution-hanime .js-solution-hanime-3 {
+  margin-top: 180px;
+  height: 470px;
+  text-align: left;
+  padding-left: 700px;
+  padding-top: 65px;
+  background: url(../img/solution/hanime-3.png) no-repeat;
+}
+
+.js-solution-driger .js-solution-driger-intro {
+  margin-top: 60px;
+  background: url(../img/solution/driger-1.png) no-repeat;
+  background-position: top center;
+  padding-top: 515px;
+  overflow: hidden;
+}
+.js-solution-driger .js-solution-driger-intro .js-solution-driger-intro-1 {
+  float: left;
+  margin-left: 145px;
+}
+.js-solution-driger .js-solution-driger-intro .js-solution-driger-intro-1 .js-solution-driger-intro-list li {
+  margin-bottom: 15px;
+}
+.js-solution-driger .js-solution-driger-intro .js-solution-driger-intro-2 {
+  float: right;
+  margin-right: 180px;
+}
+.js-solution-driger .js-solution-driger-intro .js-solution-driger-intro-2 .js-solution-driger-intro-list li {
+  margin-bottom: 15px;
+}
+.js-solution-driger .js-solution-driger-reference {
+  margin-top: 140px;
+  text-align: center;
+  overflow: hidden;
+}
+.js-solution-driger .js-solution-driger-reference h5 {
+  margin-bottom: 50px;
+}
+.js-solution-driger .js-solution-driger-reference .js-solution-driger-reference-list .js-solution-driger-reference-list1 {
+  width: 380px;
+  height: 465px;
+  border: 1px solid #d7d7d7;
+  float: left;
+  padding-left: 110px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+}
+.js-solution-driger .js-solution-driger-reference .js-solution-driger-reference-list .js-solution-driger-reference-list2 {
+  width: 380px;
+  height: 465px;
+  border: 1px solid #d7d7d7;
+  float: left;
+  margin-left: 30px;
+  padding-left: 120px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+}
+.js-solution-driger .js-solution-driger-reference .js-solution-driger-reference-list .js-solution-driger-reference-list3 {
+  width: 380px;
+  height: 465px;
+  border: 1px solid #d7d7d7;
+  float: right;
+  padding-left: 110px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+}
+
+.js-solution-multicode .js-solution-multicode-intro {
+  height: 360px;
+  margin-top: 60px;
+  padding-left: 755px;
+  padding-top: 59px;
+  background: url(../img/solution/multicode-intro.png) no-repeat;
+  background-position: 0 0;
+}
+.js-solution-multicode .js-solution-multicode-feature {
+  height: 800px;
+  margin-top: 140px;
+  text-align: center;
+  background: url(../img/solution/multicode-feature.png) no-repeat;
+  background-position: center 105px;
+}
+.js-solution-multicode .js-solution-multicode-feature table {
+  margin-top: 486px;
+}
+.js-solution-multicode .js-solution-multicode-reference {
+  margin-top: 140px;
+  text-align: center;
+}
+
+.js-solution-unishape .js-solution-unishape-1 {
+  margin-top: 60px;
+  text-align: center;
+  background: url(../img/solution/unishape-1-1.png) no-repeat;
+  background-position: 0 105px;
+}
+.js-solution-unishape .js-solution-unishape-1 p {
+  text-align: center;
+  padding-top: 340px;
+}
+.js-solution-unishape .js-solution-unishape-2 {
+  margin-top: 140px;
+  text-align: center;
+}
+.js-solution-unishape .js-solution-unishape-2 h5 {
+  margin-bottom: 45px;
+}
+.js-solution-unishape .js-solution-unishape-3 {
+  margin-top: 140px;
+  text-align: center;
+}
+.js-solution-unishape .js-solution-unishape-4 {
+  margin-top: 140px;
+  text-align: center;
+}
+.js-solution-unishape .js-solution-unishape-5 {
+  margin-top: 140px;
+  text-align: center;
+}
+
+.js-solution-unitype .js-solution-unitype-1 {
+  height: 940px;
+  margin-top: 60px;
+  text-align: center;
+  background: url(../img/solution/unitype-1.png) no-repeat;
+  background-position: 0 405px;
+}
+.js-solution-unitype .js-solution-unitype-2 {
+  height: 555px;
+  margin-top: 140px;
+  text-align: center;
+  background: url(../img/solution/unitype-2-1.png) no-repeat;
+  background-position: 0 105px;
+}
+.js-solution-unitype .js-solution-unitype-3 {
+  margin-top: 140px;
+  text-align: center;
+}
+
+.js-solution-unisubset .js-solution-unisubset-1 {
+  margin-top: 60px;
+  text-align: center;
+}
+.js-solution-unisubset .js-solution-unisubset-2 {
+  margin-top: 110px;
+  text-align: center;
+}
+
+.js-solution-mrmygle .js-solution-mrmygle-1 {
+  height: 640px;
+  margin-top: 60px;
+  text-align: center;
+  background: url(../img/solution/mrmygle-1.png) no-repeat;
+  background-position: left bottom;
+}
+.js-solution-mrmygle .js-solution-mrmygle-2 {
+  height: 540px;
+  margin-top: 140px;
+  text-align: center;
+  background: url(../img/solution/mrmygle-2.png) no-repeat;
+  background-position: left bottom;
+}
+.js-solution-mrmygle .js-solution-mrmygle-2 .js-solution-mrmygle-2-textbox {
+  margin-left: 650px;
+  margin-top: 63px;
+}
+.js-solution-mrmygle .js-solution-mrmygle-2 .js-solution-mrmygle-2-buttonbox {
+  margin-left: 650px;
+  margin-top: 35px;
+}
+.js-solution-mrmygle .js-solution-mrmygle-3 {
+  margin-top: 130px;
+  text-align: center;
+}
+.js-solution-mrmygle .js-solution-mrmygle-3 .js-solution-mrmygle-3-buttonbox {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.js-company-intro .js-company-intro-1 {
+  margin-top: 60px;
+  background: url(../img/company/intro-1-1.png) no-repeat;
+  overflow: hidden;
+  padding-top: 370px;
+}
+.js-company-intro .js-company-intro-1 .js-company-intro-1-text1 {
+  float: left;
+  margin-left: 85px;
+}
+.js-company-intro .js-company-intro-1 .js-company-intro-1-text2 {
+  float: left;
+  margin-left: 110px;
+}
+
+.js-company-bizarea {
+  height: 800px;
+  margin-top: 60px;
+  background: url(../img/company/bizarea-1.png) no-repeat;
+  background-position: center top;
+  position: relative;
+}
+.js-company-bizarea .js-company-bizarea-1 {
+  position: absolute;
+  top: 220px;
+  left: 85px;
+}
+.js-company-bizarea .js-company-bizarea-1 .js-title-2 {
+  margin-top: 10px;
+}
+.js-company-bizarea .js-company-bizarea-2 {
+  position: absolute;
+  top: 220px;
+  left: 875px;
+}
+.js-company-bizarea .js-company-bizarea-2 .js-title-2 {
+  margin-top: 10px;
+}
+.js-company-bizarea .js-company-bizarea-3 {
+  position: absolute;
+  top: 560px;
+  left: 200px;
+}
+.js-company-bizarea .js-company-bizarea-3 .js-title-2 {
+  margin-top: 10px;
+}
+.js-company-bizarea .js-company-bizarea-4 {
+  position: absolute;
+  top: 560px;
+  left: 745px;
+}
+.js-company-bizarea .js-company-bizarea-4 .js-title-2 {
+  margin-top: 10px;
+}
+
+.js-company-patent {
+  margin-top: 60px;
+  margin-bottom: 35px;
+}
+.js-company-patent .js-company-patent-list {
+  overflow: hidden;
+}
+.js-company-patent .js-company-patent-list .js-company-patent-list-ul li {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 65px;
+  text-align: center;
+}
+.js-company-patent .js-company-patent-list .js-company-patent-list-ul li .js-company-patent-list-image {
+  margin-bottom: 20px;
+}
+.js-company-patent .js-company-patent-list .js-company-patent-list-ul li:nth-child(4n) {
+  margin-right: 0;
+}
+
+.js-company-history {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.js-company-organization {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.js-company-customer {
+  margin-top: 60px;
+}
+.js-company-customer .js-company-customer-list {
+  overflow: hidden;
+}
+.js-company-customer .js-company-customer-list ul {
+  list-style: none;
+}
+.js-company-customer .js-company-customer-list ul li {
+  width: 270px;
+  float: left;
+  margin-right: 40px;
+  margin-bottom: 38px;
+  text-align: center;
+}
+.js-company-customer .js-company-customer-list ul li img {
+  width: 270px;
+  height: 150px;
+  border: 1px solid #d3d3d3;
+}
+.js-company-customer .js-company-customer-list ul li p {
+  margin: 28px 0;
+  font-family: 'SJ세종고딕';
+  color: #212a31;
+}
+.js-company-customer .js-company-customer-list ul li:nth-child(4n) {
+  margin-right: 0;
+}
+
+.js-company-location {
+  margin-top: 60px;
+}
+.js-company-location .js-company-location-map {
+  width: 100%;
+  height: 450px;
+}
+.js-company-location .js-company-location-move {
+  margin-top: 70px;
+  overflow: hidden;
+}
+.js-company-location .js-company-location-move .js-company-location-move-addr {
+  width: 400px;
+  height: 480px;
+  float: left;
+  border: 1px solid #d3d3d3;
+}
+.js-company-location .js-company-location-move .js-company-location-move-subway {
+  width: 400px;
+  height: 480px;
+  float: left;
+  border: 1px solid #d3d3d3;
+  border-left: 0;
+  border-right: 0;
+}
+.js-company-location .js-company-location-move .js-company-location-move-bus {
+  width: 400px;
+  height: 480px;
+  float: left;
+  border: 1px solid #d3d3d3;
+}
+.js-company-location .js-company-location-move .move-title {
+  margin-top: 38px;
+  font-size: 24px;
+  letter-spacing: -1px;
+  color: #212a31;
+  line-height: 24px;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.js-company-location .js-company-location-move .move-icon {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 45px;
+}
+.js-company-location .js-company-location-move .js-company-location-move-content {
+  padding: 0 0 0 27px;
+}
+.js-company-location .js-company-location-move .js-company-location-move-content .content-title {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'SJ세종고딕L';
+  color: #212a31;
+}
+.js-company-location .js-company-location-move .js-company-location-move-content .content-text {
+  line-height: 24px;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: 'SJ세종고딕L';
+  color: #212a31;
+  margin-bottom: 5px;
+  letter-spacing: -1px;
+  display: block;
+}
+.js-company-location .js-company-location-move .js-company-location-move-content .content-text.content-text-bus {
+  letter-spacing: -2px;
+  line-height: 30px;
+}
+.js-company-location .js-company-location-move .js-company-location-move-content .content-text .content-text-bin {
+  display: inline-block;
+  width: 53px;
+}
+.js-company-location .js-company-location-move .js-company-location-move-content .content-text .content-text-green {
+  color: #1e9d1b;
+  font-weight: bold;
+}
+.js-company-location .js-company-location-move .js-company-location-move-content .content-text .content-text-blue {
+  color: #0d79bf;
+  font-weight: bold;
+}
+.js-company-location .js-company-location-move .js-company-location-move-content .content-text .content-text-red {
+  color: #ea0f33;
+  font-weight: bold;
+}
+
+.js-hidden {
+  display: none;
+}
+
+.js-title-1,
+.js-title-2 {
+  margin: 0 auto;
+  text-align: center;
+  display: inline-block;
+  font-family: 'SJ세종고딕B';
+  font-weight: normal;
+  color: #212a31;
+  background: url("../img/all/title-1-icon.png") no-repeat right top;
+}
+
+.js-title-1 {
+  font-size: 24px;
+  padding: 18px 19px 0 19px;
+}
+
+.js-title-2 {
+  font-size: 18px;
+  padding: 16px 16px 0 0;
+}
+
+.js-text-1,
+.js-text-2 {
+  font-family: 'SJ세종고딕L';
+  font-size: 18px;
+  color: #212a31;
+  line-height: 36px;
+  letter-spacing: -1.5px;
+}
+.js-text-1 .js-text-bold, .js-text-1.js-text-bold,
+.js-text-2 .js-text-bold,
+.js-text-2.js-text-bold {
+  font-weight: bold;
+}
+.js-text-1 .js-text-red, .js-text-1.js-text-red,
+.js-text-2 .js-text-red,
+.js-text-2.js-text-red {
+  color: #f50a2b;
+}
+.js-text-1 .js-text-silver, .js-text-1.js-text-silver,
+.js-text-2 .js-text-silver,
+.js-text-2.js-text-silver {
+  color: #b5b5b5;
+}
+.js-text-1 .js-text-orange, .js-text-1.js-text-orange,
+.js-text-2 .js-text-orange,
+.js-text-2.js-text-orange {
+  color: #fc611f;
+}
+
+.js-text-2 {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.js-box-1 {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.js-box-1.js-box-right, .js-box-1 > .js-box-right {
+  text-align: right;
+}
+.js-box-1 > .js-box-right {
+  float: right;
+  width: 30%;
+}
+.js-box-1.js-box-left, .js-box-1 > .js-box-left {
+  text-align: left;
+}
+.js-box-1 > .js-box-left {
+  float: left;
+  width: 30%;
+}
+.js-box-1.js-box-center, .js-box-1 > .js-box-center {
+  text-align: center;
+}
+.js-box-1 > .js-box-center {
+  float: left;
+  width: 40%;
+}
+
+ul.js-textlist-1 {
+  list-style: none;
+  text-align: left;
+}
+ul.js-textlist-1 li {
+  background: url(../img/all/content-textlist-1-icon.png) no-repeat;
+  background-position: 10px 16px;
+  padding-left: 20px;
+  font-family: 'SJ세종고딕L';
+  font-size: 18px;
+  color: #212a31;
+  line-height: 36px;
+  letter-spacing: -1px;
+}
+ul.js-textlist-1.js-text-list-lineH24 li {
+  line-height: 24px;
+  background-position: 10px 10px;
+}
+
+.js-textpoint-1 {
+  background: url(../img/all/content-textlist-1-icon.png) no-repeat;
+  background-position: 10px 9px;
+  padding-left: 20px;
+  font-family: 'SJ세종고딕L';
+  font-size: 18px;
+  color: #212a31;
+  line-height: 36px;
+  letter-spacing: -1px;
+}
+
+.js-help-box {
+  height: 115px;
+  margin: 100px 0 0 0;
+  padding-top: 22px;
+  text-align: center;
+  border-radius: 57px;
+  background-color: #ebebeb;
+  background-image: url("../img/all/help-icon.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.js-help-box .help-text {
+  font-family: 'SJ세종고딕B';
+  font-size: 21px;
+  color: #fc611f;
+  line-height: 36px;
+}
+.js-help-box .help-contact {
+  font-family: 'SJ세종고딕L';
+  font-size: 18px;
+  color: #4c4d4e;
+  line-height: 36px;
+}
+
+.js-boxlist-1 {
+  width: 100%;
+  overflow: hidden;
+}
+.js-boxlist-1 .js-boxlist-item {
+  display: block;
+  float: left;
+  width: 380px;
+  border: 1px solid #d7d7d7;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+.js-boxlist-1 .js-boxlist-item.js-boxlist-item-h90 {
+  height: 90px;
+}
+.js-boxlist-1 .js-boxlist-item:nth-child(3n) {
+  margin-right: 0;
+}
+.js-boxlist-1 .js-boxlist-item.js-boxlist-align-1line {
+  padding-top: 27px;
+}
+.js-boxlist-1 .js-boxlist-item.js-boxlist-align-2line {
+  padding-top: 11px;
+}
+
+.js-button-1 {
+  min-width: 110px;
+  display: inline-block;
+  font-family: '돋움','Dotum';
+  font-size: 12px;
+  line-height: 24px;
+  padding: 3px 10px;
+  text-align: center;
+  color: #6d6d6d;
+  background-color: #fff;
+  border: 1px solid #c7c7c7;
+  text-decoration: none;
+  cursor: pointer;
+}
+.js-button-1:link, .js-button-1:visited, .js-button-1:active {
+  text-decoration: none;
+  color: #6d6d6d;
+}
+.js-button-1.js-button-orange {
+  color: #fff;
+  background-color: #fc611f;
+  border: 1px solid #fc611f;
+}
+.js-button-1.js-button-red {
+  color: #fff;
+  background-color: #e8180c;
+  border: 1px solid #e8180c;
+}
+
+.js-button-2 {
+  min-width: 210px;
+  display: inline-block;
+  font-family: 'SJ세종고딕L';
+  font-size: 20px;
+  line-height: 21px;
+  padding: 22px 10px;
+  text-align: center;
+  color: #212a31;
+  background-color: #fff;
+  border: 1px solid #c7c7c7;
+  text-decoration: none;
+  cursor: pointer;
+}
+.js-button-2:link, .js-button-2:visited, .js-button-2:active {
+  text-decoration: none;
+  color: #6d6d6d;
+}
+.js-button-2.js-button-buyicon {
+  text-align: left;
+  padding-left: 50px;
+  background: url(../img/all/button-2-buyicon.png) no-repeat;
+  color: #fff;
+}
+
+.gridBox12 {
+  height: auto;
+  overflow: auto;
+}
+.gridBox12 .grid-1 {
+  position: relative;
+  display: inline;
+  float: left;
+  width: 8.33333%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.gridBox12 .grid-2 {
+  position: relative;
+  display: inline;
+  float: left;
+  width: 16.66667%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.gridBox12 .grid-3 {
+  position: relative;
+  display: inline;
+  float: left;
+  width: 25%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.gridBox12 .grid-4 {
+  position: relative;
+  display: inline;
+  float: left;
+  width: 33.33333%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.gridBox12 .grid-5 {
+  position: relative;
+  display: inline;
+  float: left;
+  width: 41.66667%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.gridBox12 .grid-6 {
+  position: relative;
+  display: inline;
+  float: left;
+  width: 50%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.gridBox12 .grid-7 {
+  position: relative;
+  display: inline;
+  float: left;
+  width: 58.33333%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.gridBox12 .grid-8 {
+  position: relative;
+  display: inline;
+  float: left;
+  width: 66.66667%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.gridBox12 .grid-9 {
+  position: relative;
+  display: inline;
+  float: left;
+  width: 75%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.gridBox12 .grid-10 {
+  position: relative;
+  display: inline;
+  float: left;
+  width: 83.33333%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.gridBox12 .grid-11 {
+  position: relative;
+  display: inline;
+  float: left;
+  width: 91.66667%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.gridBox12 .grid-12 {
+  position: relative;
+  display: inline;
+  float: left;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.js-mobile {
+  display: none;
+}
+
+#content-wrap .main-visual {
+  border-bottom: 1px solid #d3d3d3;
+  background: url(../img/main-visual-bg.png) center center;
+  background-size: 100% 100%;
+  min-width: 1200px;
+}
+#content-wrap .main-visual .main-visual-container {
+  min-width: 1000px;
+  max-width: 1920px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#content-wrap .main-visual .main-visual-left {
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+#content-wrap .main-visual .main-visual-left img {
+  width: 100%;
+}
+#content-wrap .main-visual .main-visual-right {
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+#content-wrap .main-visual .main-visual-right img {
+  width: 100%;
+}
+#content-wrap .main-fonts {
+  height: 900px;
+}
+#content-wrap .main-fonts .main-fonts-container {
+  position: relative;
+  margin: 0 auto;
+  width: 1200px;
+  height: 100%;
+  padding-top: 97px;
+}
+#content-wrap .main-fonts .main-fonts-container .main-fonts-title {
+  font-family: 'SJ세종고딕R';
+  font-weight: normal;
+  font-size: 42px;
+  color: #212a31;
+  text-align: center;
+}
+#content-wrap .main-fonts .main-fonts-container .main-fonts-list {
+  position: relative;
+  overflow: hidden;
+  margin-top: 50px;
+}
+#content-wrap .main-fonts .main-fonts-container .main-fonts-list > div {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  border: 1px solid #d3d3d3;
+  margin: 15px 15px;
+}
+#content-wrap .main-fonts .main-fonts-container .main-fonts-list > div img.main-fonts-list-image {
+  width: 100%;
+  height: 100%;
+}
+#content-wrap .main-fonts .main-fonts-container .main-fonts-list > div .main-fonts-list-subimage {
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+  background-color: #fff;
+}
+#content-wrap .main-fonts .main-fonts-container .main-fonts-list > div .main-fonts-list-subimage img {
+  width: 100%;
+  height: 100%;
+}
+#content-wrap .main-fonts .main-fonts-container .main-fonts-list > div .main-fonts-list-nodata {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+#content-wrap .main-fonts .main-fonts-container .main-fonts-list > div .main-fonts-list-content {
+  display: none;
+  position: absolute;
+  top: 14px;
+  bottom: 14px;
+  left: 14px;
+  right: 14px;
+  overflow: hidden;
+  background-color: #fff;
+}
+#content-wrap .main-fonts .main-fonts-container .main-fonts-list > div .main-fonts-list-content .main-fonts-list-content-title {
+  padding: 40px 10px 10px 10px;
+  font-family: 'SJ세종고딕R';
+  font-size: 21px;
+  font-weight: normal;
+  color: #fc611f;
+  text-align: center;
+}
+#content-wrap .main-fonts .main-fonts-container .main-fonts-list > div .main-fonts-list-content .main-fonts-list-content-content {
+  font-family: 'SJ세종고딕L';
+  font-size: 36px;
+  font-weight: normal;
+  color: #212a31;
+  text-align: center;
+}
+#content-wrap .main-fonts .main-fonts-container .main-fonts-list > div.main-fonts-list-1 {
+  width: 400px;
+  height: 400px;
+  margin-left: 0;
+  margin-top: 0;
+}
+#content-wrap .main-fonts .main-fonts-container .main-fonts-list > div.main-fonts-list-1 .main-fonts-list-nodata {
+  line-height: 400px;
+}
+#content-wrap .main-fonts .main-fonts-container .main-fonts-list > div.main-fonts-list-2 {
+  width: 555px;
+  height: 185px;
+  margin-top: 0;
+}
+#content-wrap .main-fonts .main-fonts-container .main-fonts-list > div.main-fonts-list-2 .main-fonts-list-nodata {
+  line-height: 185px;
+}
+#content-wrap .main-fonts .main-fonts-container .main-fonts-list > div.main-fonts-list-3 {
+  width: 185px;
+  height: 185px;
+  margin-top: 0;
+  margin-right: 0;
+}
+#content-wrap .main-fonts .main-fonts-container .main-fonts-list > div.main-fonts-list-3 .main-fonts-list-nodata {
+  line-height: 185px;
+}
+#content-wrap .main-fonts .main-fonts-container .main-fonts-list > div.main-fonts-list-4 {
+  width: 185px;
+  height: 185px;
+}
+#content-wrap .main-fonts .main-fonts-container .main-fonts-list > div.main-fonts-list-4 .main-fonts-list-nodata {
+  line-height: 185px;
+}
+#content-wrap .main-fonts .main-fonts-container .main-fonts-list > div.main-fonts-list-5 {
+  width: 185px;
+  height: 185px;
+}
+#content-wrap .main-fonts .main-fonts-container .main-fonts-list > div.main-fonts-list-5 .main-fonts-list-nodata {
+  line-height: 185px;
+}
+#content-wrap .main-fonts .main-fonts-container .main-fonts-list > div.main-fonts-list-6 {
+  float: right;
+  width: 340px;
+  height: 400px;
+  margin-right: 0;
+}
+#content-wrap .main-fonts .main-fonts-container .main-fonts-list > div.main-fonts-list-6 .main-fonts-list-nodata {
+  line-height: 400px;
+}
+#content-wrap .main-fonts .main-fonts-container .main-fonts-list > div.main-fonts-list-7 {
+  width: 185px;
+  height: 185px;
+  margin-left: 0;
+}
+#content-wrap .main-fonts .main-fonts-container .main-fonts-list > div.main-fonts-list-7 .main-fonts-list-nodata {
+  line-height: 185px;
+}
+#content-wrap .main-fonts .main-fonts-container .main-fonts-list > div.main-fonts-list-8 {
+  width: 185px;
+  height: 185px;
+}
+#content-wrap .main-fonts .main-fonts-container .main-fonts-list > div.main-fonts-list-8 .main-fonts-list-nodata {
+  line-height: 185px;
+}
+#content-wrap .main-fonts .main-fonts-container .main-fonts-list > div.main-fonts-list-9 {
+  width: 400px;
+  height: 185px;
+}
+#content-wrap .main-fonts .main-fonts-container .main-fonts-list > div.main-fonts-list-9 .main-fonts-list-nodata {
+  line-height: 185px;
+}
+#content-wrap .main-solution {
+  min-width: 1200px;
+  height: 770px;
+  background-color: #36b8a8;
+  background-image: url("../img/main-solution-bg.png");
+  background-position: center center;
+}
+#content-wrap .main-solution .main-solution-container {
+  position: relative;
+  margin: 0 auto;
+  width: 1200px;
+  height: 100%;
+  background: url(../img/main-solution-image.png) no-repeat left 132px;
+}
+#content-wrap .main-solution .main-solution-container .main-solution-title {
+  font-family: 'SJ세종고딕R';
+  font-weight: normal;
+  font-size: 42px;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 57px;
+}
+#content-wrap .main-solution .main-solution-container .main-solution-subtitle {
+  position: absolute;
+  left: 675px;
+  top: 247px;
+  font-family: 'SJ세종고딕R';
+  font-weight: normal;
+  font-size: 36px;
+  color: #ffffff;
+  text-align: left;
+}
+#content-wrap .main-solution .main-solution-container .main-solution-content {
+  position: absolute;
+  left: 675px;
+  top: 330px;
+  line-height: 30px;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: left;
+}
+#content-wrap .main-solution .main-solution-container .main-solution-button {
+  position: absolute;
+  left: 675px;
+  top: 560px;
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 15px 25px;
+}
+#content-wrap .main-bbs {
+  position: relative;
+  margin: 0 auto;
+  width: 1200px;
+  height: 340px;
+}
+#content-wrap .main-bbs .main-bbs-notice {
+  padding-top: 95px;
+}
+#content-wrap .main-bbs .main-bbs-notice .main-bbs-notice-title {
+  margin-bottom: 20px;
+  font-family: 'SJ세종고딕R';
+  font-weight: normal;
+  font-size: 24px;
+  color: #212a31;
+}
+#content-wrap .main-bbs .main-bbs-notice .main-bbs-notice-more {
+  position: absolute;
+  top: 95px;
+  left: 532px;
+  display: block;
+  width: 28px;
+  height: 28px;
+  line-height: 27px;
+  text-align: center;
+  color: #212a31;
+  font-size: 20px;
+  text-decoration: none;
+}
+#content-wrap .main-bbs .main-bbs-notice .main-bbs-notice-list a {
+  position: relative;
+  display: block;
+  width: 560px;
+  line-height: 28px;
+}
+#content-wrap .main-bbs .main-bbs-notice .main-bbs-notice-list a:before {
+  content: "•";
+  /* Insert content that looks like bullets */
+  font-size: 8px;
+  padding-right: 10px;
+  color: #212a31;
+  /* Or a color you prefer */
+}
+#content-wrap .main-bbs .main-bbs-notice .main-bbs-notice-list .subject,
+#content-wrap .main-bbs .main-bbs-notice .main-bbs-notice-list .date {
+  font-size: 18px;
+  color: #212a31;
+}
+#content-wrap .main-bbs .main-bbs-notice .main-bbs-notice-list .date {
+  position: absolute;
+  right: 0;
+}
+#content-wrap .main-bbs .main-bbs-banner {
+  position: absolute;
+  right: 0;
+  top: 100px;
+  width: 610px;
+  height: 155px;
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=default.css.map */
